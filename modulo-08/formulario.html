@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Formulário Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>EBAC</h1>
+            <p>Engenharia Front-end</p>
+
+		</header>
+
+		<section>
+
+			<nav>    
+                <a href="index.html">Home</a>
+                <a href="planilha.html">Tabelas</a>
+                <a href="layouts.html">Layout</a>
+                
+            </nav>
+			
+
+			<article>
+
+				<h2>Fale conosco</h2>
+				<h3>Preencha os campos abaixo:</h3>
+
+				<form method="post">
+
+					<div>
+						<label>Assunto</label>
+						<select>
+							<option value="Duvida">Dúvida</option>
+							<option value="Informacao">Informação</option>
+							<option value="Sugestao" selected>Sugestão</option>
+							<option value="Elogio" selected>Elogio</option>
+						</select>
+					</div>
+
+					<div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<input class="enviar" type="submit" >
+					</div>
+					
+
+				</form>
+						
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Maira Zampieron</p>
+		</footer>
+		
+	</body>
+</html>

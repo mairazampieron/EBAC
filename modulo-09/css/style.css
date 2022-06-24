@@ -1,0 +1,261 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2, h4 {
+	font-size: 1.8rem;
+	height: 3rem;
+}
+
+h1, h2, h4, p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #454545;
+}
+
+h3 {
+	color: #4002D9;
+	font-size: 2em;
+	
+}
+
+a {
+	color: #336;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #009;
+	background: #0280F8;
+}
+
+ul {
+	font-size: 20px;
+}
+
+ul li {
+	font-size: 0.8em; /* equivalente a 16px */
+	font-size: 1.6rem; /* equivalente a 16px */
+	width: 80%;
+	height: 3rem; /* equivalente a 30px */
+}
+
+p {
+	font-size: 1.6rem; /* equivalente a 16px */
+}
+
+.navegacao li {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	padding: 1rem 1rem 2rem 1rem;
+	line-height: 1.2rem;
+}
+
+.navegacao a {
+	color:#120EF0;
+	display: block;
+	margin-bottom: .5rem;
+	width: 100%;
+}
+
+form {
+	background: #eee;
+	padding: 10px;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+header {
+  background-color: #eee;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.coluna {
+display: block;
+width: 50%;
+float: left;
+padding:5px;
+
+}
+
+.coluna-3 {
+columns: 100px 2;
+width: 100%;
+font-size: 1.5em;
+}
+
+.coluna-100 {
+width: 100%;
+}
+
+iframe {
+	width: 100%;
+}
+
+#grafico-01 {
+    background-color: brown;
+    max-width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+/* Triângulo */
+#grafico-02 {
+    background: transparent;
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+}
+
+#imagem-vetorial {
+    width: 100px;
+}
+
+#canvas {
+    height: 300px;
+    width: 300px;
+}
+
+#grafico-01 {
+    filter: drop-shadow(4px 4px 10px #333);
+    max-width: 100%;
+    height: auto;
+
+}
+.filtro {
+    filter: grayscale(100%);
+    filter: blur (5px);
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+   
+}
+
+
+@media (max-width: 768px) {
+
+	nav {
+		width: 30%;
+	}
+
+	article {
+		width: 70%;
+	}
+
+	.coluna {
+		width: 50%;
+		min-width: unset;
+	}
+
+	header, footer {
+		background-color: #8D02F8;
+	}
+
+}
+
+@media (max-width: 425px) {
+	
+	nav,
+	article,
+	.coluna {
+		width: 100%;
+		min-width: 320px;
+    }
+
+	h1, h2, p, li {
+		font-size: 2rem;
+	}
+
+	footer,  header{
+		background-color: #E49A91;
+	}
+}
+
+
+
+
+

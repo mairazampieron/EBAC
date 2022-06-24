@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,500&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    margin: auto;
+    width: 100%;
+    background-color: white;        
+}
+
+h1 {
+    color: #F2727D;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #F2727D;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+p {
+    color: #F2727D;
+    font-size: 1.2em;
+}
+
+h3 {
+    color: #8E9772;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav {
+    background-color: #F2ADA7;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.192);
+    text-align: center;
+}
+
+nav > a {
+    color: #F2727D;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color:#F8CCC1;
+}
+
+main {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > picture {
+ 
+    width: 100%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+    margin: auto;
+    background-size: 100%;
+}
+
+.sobre {
+    text-align: justify;
+	font-size: 1em;
+    line-height: 2em;
+    color: black;
+}
+
+.sobre > h2 {
+    text-align: justify;
+    padding-right: 16px;
+    color: #8E9772;
+}
+
+
+article > p {
+	text-align: center;
+	text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    color: black;
+}
+
+article > h4 {
+    color: #F2727D;
+    text-align: center;
+}
+
+article > img {
+	border-radius: 50%;
+    float: left;
+    padding-right: 16px;
+}
+
+form {
+	background:  #C6D2C6;
+	padding: 20px;
+}
+
+form div {
+	background:   #F2F2F2;
+	margin: 1rem;
+	padding: 2rem;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+}
+
+div h2 {
+    color:#8E9772 ;
+        
+}
+
+div p {
+    color: black;
+    font-size: 1em;
+    text-indent: 1em;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+input {
+    padding: 0rem;
+    font-size: 1em;    
+}
+
+.enviar {
+    border-radius: 20px;
+    background-color:#F2ADA7;
+    font-size: 1.2em;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+    padding: 1rem;
+}
+
+aside {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 150px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+    text-align: center;
+}
+
+aside > h3 {
+    background-color: #8E9772;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;  
+}
+
+footer {
+    background-color: #F2727D;
+    padding: 10px;
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+@media screen (max-width: 768px) {
+    main {
+        width: 100%;
+        display: block;
+       }
+
+}
+
+@media screen (max-width: 320px) {
+    
+(max-width: 320px) {
+   main {
+    width: 100%;
+   }
+}
+}
