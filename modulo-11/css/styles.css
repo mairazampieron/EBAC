@@ -65,6 +65,26 @@ p {
     color: #333;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interese {
+    width: 100%;
+    background-color: #becbd4a1;
+    
+}
+
+#tenho-interese form,
+.cog-form__container {
+    background-color: #becbd4a1 !important;
+}
+
+
+
+
+
 ol li {
     font-size: 1.4rem;
     color: #454545;
@@ -131,3 +151,16 @@ font small {
     font-size: 80%;
     display: block;
 }
+
+.cognito {
+    height: 500px !important;
+    overflow: hidden !important;
+    background-color: #abcce3a1 !important;
+}
+
+.cog-abuse {
+    visibility: hidden !important;
+}
+
+
+
