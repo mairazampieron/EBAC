@@ -231,10 +231,6 @@ iframe {
 		min-width: unset;
 	}
 
-	header, footer {
-		background-color: #8D02F8;
-	}
-
 }
 
 @media (max-width: 425px) {
@@ -248,10 +244,6 @@ iframe {
 
 	h1, h2, p, li {
 		font-size: 2rem;
-	}
-
-	footer,  header{
-		background-color: #E49A91;
 	}
 }
 
