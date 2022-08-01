@@ -18,6 +18,7 @@ html {
 img {
 	max-width: 100%;
 	height: auto;
+	border-radius: 50%;
 }
 
 body {
@@ -69,6 +70,16 @@ p {
 	font-size: 1.6rem; /* equivalente a 16px */
 }
 
+.homepage > h3 {
+	margin-top: 30px;
+}
+
+.homepage > p {
+	margin-top: 20px;
+	text-align: justify;
+	text-indent: 20px;
+}
+
 .navegacao li {
 	border-bottom: 1px solid #ccc;
 	display: block;
@@ -80,6 +91,12 @@ p {
 	color:#120EF0;
 	display: block;
 	margin-bottom: .5rem;
+	width: 100%;
+}
+
+.redes {
+	margin-top: 20px;
+	color: #009;
 	width: 100%;
 }
 
@@ -218,19 +235,16 @@ iframe {
 
 @media (max-width: 768px) {
 
-	nav {
-		width: 30%;
-	}
-
-	article {
-		width: 70%;
-	}
-
+	nav,
+	article,
 	.coluna {
-		width: 50%;
-		min-width: unset;
+		width: 100%;
+		min-width: 500px;
 	}
 
+	h1, h2, p, li {
+		font-size: 2rem;
+	}
 }
 
 @media (max-width: 425px) {

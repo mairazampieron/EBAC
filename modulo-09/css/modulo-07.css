@@ -44,6 +44,7 @@ header p {
 
 header h2 {
 	font-weight: 100;
+	margin-top: 10px;
 }
 
 
@@ -169,6 +170,13 @@ footer p {
 	color: #333333;
 }
 
+.table-container {
+	width: 100%;
+	margin: auto;
+	overflow-x: auto;
+}
+
+
 @media (max-width: 768px) {
 
 	nav {
@@ -184,11 +192,10 @@ footer p {
 		min-width: unset;
 	}
 
-	header, footer {
-		background-color: #8D02F8;
-	}
+	
 
-}
+}	
+
 
 @media (max-width: 425px) {
 	
@@ -207,9 +214,7 @@ footer p {
 		font-size: 2rem;
 	}
 
-	footer,  header{
-		background-color: #E49A91;
-	}
+	
 }
 
 
